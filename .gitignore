@@ -1,0 +1,55 @@
+# === Common ===
+*.log
+*.tmp
+*.swp
+*.bak
+*.env
+.env.*
+.envrc
+node_modules/
+__pycache__/
+.vscode/
+.idea/
+
+# === Node.js ===
+dist/
+.build/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+.pnpm-debug.log
+
+# === Python ===
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+.eggs/
+*.egg-info/
+pytest_cache/
+.mypy_cache/
+
+# === Go ===
+bin/
+pkg/
+*.exe
+*.test
+*.out
+
+# === AWS / Infra ===
+*.tfstate
+*.tfstate.*
+.terraform/
+.aws-sam/
+cdk.out/
+serverless/output/
+*.pem
+*.key
+
+# === Optional ===
+coverage/
+coverage.*
+test-results/
+*.lcov
